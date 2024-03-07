@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.scm.SubversionTagAction plugin="subversion@2.17.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>https://svn.code.sf.net/p/samplesubversionproject1/svn1</url>
+            <revision>4</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState plugin="subversion@2.17.3">
+      <revisions>
+        <entry>
+          <string>https://svn.code.sf.net/p/samplesubversionproject1/svn1</string>
+          <long>4</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+  </actions>
+  <queueId>20</queueId>
+  <timestamp>1707812334998</timestamp>
+  <startTime>1707812335059</startTime>
+  <result>SUCCESS</result>
+  <duration>86922</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\2303556\.jenkins\workspace\Build Periodically</workspace>
+  <hudsonVersion>2.426.3</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser" plugin="subversion@2.17.3">
+    <ignoreDirPropChanges>false</ignoreDirPropChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

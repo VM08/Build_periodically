@@ -1,0 +1,43 @@
+Started by user [8mha:////4OITVID1XyuBut40bGa2YSWeFB70mC/+xcbVKzhNxXMDAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\Users\2303556\.jenkins\workspace\Build Periodically
+Checking out a fresh workspace because there's no workspace at C:\Users\2303556\.jenkins\workspace\Build Periodically
+Cleaning local Directory .
+Checking out https://svn.code.sf.net/p/samplesubversiontest/svn at revision '2024-02-13T13:47:17.314 +0530' --quiet
+At revision 4
+
+[Build Periodically] $ cmd /c call C:\Users\2303556\AppData\Local\Temp\1\jenkins7269560182500115924.bat
+
+C:\Users\2303556\.jenkins\workspace\Build Periodically>mvn package 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< gd.wa:minimal-pom >--------------------------
+[INFO] Building minimal-pom 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ minimal-pom ---
+[INFO] skip non existing resourceDirectory C:\Users\2303556\.jenkins\workspace\Build Periodically\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.1:compile (default-compile) @ minimal-pom ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to C:\Users\2303556\.jenkins\workspace\Build Periodically\target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ minimal-pom ---
+[INFO] skip non existing resourceDirectory C:\Users\2303556\.jenkins\workspace\Build Periodically\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.1:testCompile (default-testCompile) @ minimal-pom ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.2:test (default-test) @ minimal-pom ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ minimal-pom ---
+[INFO] Building jar: C:\Users\2303556\.jenkins\workspace\Build Periodically\target\minimal-pom-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.720 s
+[INFO] Finished at: 2024-02-13T13:48:50+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
